@@ -1,0 +1,16 @@
+﻿@model dotnetcore_test.Models.ComparisonModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="text-center">
+    <ul class="list-group">
+    @foreach (var check in Model.Checks)
+    {
+        var cssClass = check.HasPassed ? "list-group-item-success" : "list-group-item-danger";
+        <li class="list-group-item @cssClass">@check.Summary</li>
+    }
+    </ul>
+</div>

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Simon\\Source\\Repos\\dotnetcore-test\\dotnetcore-test.csproj",
-      "projectName": "dotnetcore-test",
-      "projectPath": "C:\\Users\\Simon\\Source\\Repos\\dotnetcore-test\\dotnetcore-test.csproj",
+      "projectUniqueName": "C:\\Users\\Simon\\Source\\Repos\\DataFeedUtils\\DataFeedUtils.csproj",
+      "projectName": "DataFeedUtils",
+      "projectPath": "C:\\Users\\Simon\\Source\\Repos\\DataFeedUtils\\DataFeedUtils.csproj",
       "packagesPath": "C:\\Users\\Simon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Simon\\Source\\Repos\\dotnetcore-test\\obj\\",
+      "outputPath": "C:\\Users\\Simon\\Source\\Repos\\DataFeedUtils\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -22,7 +22,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v3.0": {
-      "dotnetcore-test/1.0.0": {
+      "DataFeedUtils/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Antiforgery": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.0.0.0",
@@ -308,10 +308,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "dotnetcore-test.dll": {}
+          "DataFeedUtils.dll": {}
         },
         "compile": {
-          "dotnetcore-test.dll": {}
+          "DataFeedUtils.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.0.0.0": {
@@ -2009,7 +2009,7 @@
     }
   },
   "libraries": {
-    "dotnetcore-test/1.0.0": {
+    "DataFeedUtils/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

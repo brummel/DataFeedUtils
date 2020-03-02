@@ -39,6 +39,11 @@ namespace dotnetcore_test.Controllers
             var oldXDoc = RunXmlReadChecks(checks, model.OldUrl);
             var newXDoc = RunXmlReadChecks(checks, model.NewUrl);
 
+            if (oldXDoc == null || newXDoc == null)
+            {
+                return;
+            }
+
             var leftElement = oldXDoc.Root;
             var rightElementsAvailable = newXDoc.Elements();
 
